@@ -1,0 +1,16 @@
+# ── Trained Models (too large for GitHub / can be reproduced) ──────
+*.pkl
+
+# ── MIMIC-IV Data (sensitive + large — requires credentialed access) ─
+*.csv
+
+# ── Jupyter Checkpoints ──────────────────────────────────────────────
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ── Unrelated / Scratch Notebooks ────────────────────────────────────
+Untitled.ipynb
+02-SVM Assignment.ipynb
+
+# ── macOS System Files ────────────────────────────────────────────────
+.DS_Store
