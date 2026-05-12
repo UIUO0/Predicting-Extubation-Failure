@@ -4,19 +4,21 @@
   "n_test": 4860,
   "prevalence": 0.24444444444444444,
   "metrics": {
-    "ROC-AUC": 0.7565,
-    "PR-AUC": 0.5451,
-    "F1": 0.5246,
-    "Sensitivity": 0.5875,
-    "Specificity": 0.7889,
-    "Brier": 0.1527
+    "ROC-AUC": 0.7565430539967577,
+    "PR-AUC": 0.5451452740584586,
+    "F1": 0.5246148064637355,
+    "Sensitivity": 0.5875420875420876,
+    "Specificity": 0.7889433551198257,
+    "Brier": 0.15266178254245746,
+    "ECE": 0.03843998773015822
   },
   "top_features": [
     "min_spo2",
-    "vent_duration_hours",
-    "comorbidity_count",
     "avg_gcs_motor",
-    "max_resp_rate"
+    "vent_duration_hours",
+    "avg_heart_rate",
+    "avg_fio2"
   ],
-  "risk_strata_csv": "/Users/uiuo/Documents/GitHub/Predicting-Extubation-Failure/phase5_outputs/table_5_7_risk_stratification.csv"
+  "risk_strata_csv": "/Users/uiuo/Documents/GitHub/Predicting-Extubation-Failure/phase5_outputs/table_5_7_risk_stratification.csv",
+  "paired_tests_csv": "/Users/uiuo/Documents/GitHub/Predicting-Extubation-Failure/phase5_outputs/table_5_3_paired_tests.csv"
 }
